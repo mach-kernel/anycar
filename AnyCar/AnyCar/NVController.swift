@@ -23,6 +23,39 @@ class NVController : UINavigationController {
         }
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let context = delegate.managedObjectContext
+        do {
+            let results = try context
+                .executeFetchRequest(NSFetchRequest(entityName: "singlyton"))
+                as! [NSManagedObject]
+            
+            if results.count == 0 {
+                let entity = NSEntityDescription.entityForName("SettingSingleton", inManagedObjectContext: context)
+                
+                let settingSingleton = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: context)
+                
+                settingSingleton.setValue(true, forKey: "speed_metric")
+                
+                do {
+                    try context.save()
+                } catch let _ as NSError {
+                    
+                }
+                
+            }
+            
+            self.settings = results[0]
+        } catch let error as NSError {
+            print ("oh no fuck")
+        }
+        
+        print(settings)
+    }
+        
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
