@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AR6-Yk-tXh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AR6-Yk-tXh">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--Select Car-->
@@ -66,6 +66,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="AnyCar" id="d6N-vV-f3a"/>
+                    <connections>
+                        <outlet property="CarPicker" destination="lN8-Zb-Hvo" id="yQc-sk-rqv"/>
+                        <outlet property="MPH" destination="7B1-oa-Xmj" id="bRv-EA-sqc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,7 +96,7 @@
         <!--Drive-->
         <scene sceneID="hlm-vF-gp9">
             <objects>
-                <viewController title="Drive" id="QSY-AB-I28" sceneMemberID="viewController">
+                <viewController title="Drive" id="QSY-AB-I28" customClass="DriveViewController" customModule="AnyCar" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kr5-ll-a6d"/>
                         <viewControllerLayoutGuide type="bottom" id="B4p-oN-sDx"/>
@@ -100,12 +104,35 @@
                     <view key="view" contentMode="scaleToFill" id="4ge-On-wOc">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Speed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkG-a5-khS">
+                                <rect key="frame" x="255" y="257" width="90" height="37"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yva-ve-GuL">
+                                <rect key="frame" x="279" y="297" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S92-xr-ltj">
+                                <rect key="frame" x="180" y="103" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S92-xr-ltj" firstAttribute="centerX" secondItem="4ge-On-wOc" secondAttribute="centerX" id="DtL-1S-mUc"/>
+                            <constraint firstItem="SkG-a5-khS" firstAttribute="centerX" secondItem="S92-xr-ltj" secondAttribute="centerX" id="bnU-HQ-eVC"/>
+                            <constraint firstItem="Yva-ve-GuL" firstAttribute="centerX" secondItem="S92-xr-ltj" secondAttribute="centerX" id="f8o-1O-vt3"/>
+                            <constraint firstItem="S92-xr-ltj" firstAttribute="centerX" secondItem="4ge-On-wOc" secondAttribute="centerX" id="uLl-bq-yGv"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mE6-mb-tcl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3257" y="526"/>
+            <point key="canvasLocation" x="3181" y="526"/>
         </scene>
     </scenes>
 </document>
