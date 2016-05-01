@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5355525EDE345EA923EC5569 /* Pods_AnyCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD753B2B272739E45E81C6BE /* Pods_AnyCar.framework */; };
+		632AB7AB1CD5A9EC00D1505D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632AB7AA1CD5A9EC00D1505D /* CoreLocation.framework */; };
+		63333CF11CD68C970024BE66 /* r8_accel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 63333CEE1CD68C970024BE66 /* r8_accel.m4a */; };
+		63333CF21CD68C970024BE66 /* r8_decel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 63333CEF1CD68C970024BE66 /* r8_decel.m4a */; };
+		63333CF31CD68C970024BE66 /* r8_idle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 63333CF01CD68C970024BE66 /* r8_idle.m4a */; };
+		63333CF71CD6A1A90024BE66 /* jetsons_accel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 63333CF41CD6A1A90024BE66 /* jetsons_accel.m4a */; };
+		63333CF81CD6A1A90024BE66 /* jetsons_decel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 63333CF51CD6A1A90024BE66 /* jetsons_decel.m4a */; };
+		63333CF91CD6A1A90024BE66 /* jetsons_idle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 63333CF61CD6A1A90024BE66 /* jetsons_idle.m4a */; };
+		63333CFD1CD6B3E20024BE66 /* jetsons.gif in Resources */ = {isa = PBXBuildFile; fileRef = 63333CFC1CD6B3E20024BE66 /* jetsons.gif */; };
+		63333CFF1CD6B4490024BE66 /* r8.gif in Resources */ = {isa = PBXBuildFile; fileRef = 63333CFE1CD6B4490024BE66 /* r8.gif */; };
 		634E50D41CBC730600E780F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E50D31CBC730600E780F2 /* AppDelegate.swift */; };
 		634E50D61CBC730600E780F2 /* SelectCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E50D51CBC730600E780F2 /* SelectCarViewController.swift */; };
 		634E50D91CBC730600E780F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634E50D71CBC730600E780F2 /* Main.storyboard */; };
 		634E50DB1CBC730600E780F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634E50DA1CBC730600E780F2 /* Assets.xcassets */; };
 		634E50DE1CBC730600E780F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634E50DC1CBC730600E780F2 /* LaunchScreen.storyboard */; };
-		634E50ED1CBC78B600E780F2 /* Models.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 634E50EB1CBC78B600E780F2 /* Models.xcdatamodeld */; };
-		6350BAF61CCDAB8C00F3A9C4 /* r8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6350BAF51CCDAB8C00F3A9C4 /* r8.mp3 */; };
 		6350BAF91CCDABC800F3A9C4 /* DriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6350BAF81CCDABC800F3A9C4 /* DriveViewController.swift */; };
 		6350BAFB1CCDAF4800F3A9C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6350BAFA1CCDAF4800F3A9C4 /* AVFoundation.framework */; };
-		6353B06E1CD02DCC00D13DE3 /* r8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6353B06D1CD02DCC00D13DE3 /* r8.jpg */; };
+		638254DB1CD6C327009188FD /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 638254DA1CD6C327009188FD /* info.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		632AB7AA1CD5A9EC00D1505D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		63333CEE1CD68C970024BE66 /* r8_accel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = r8_accel.m4a; path = Sounds/r8_accel.m4a; sourceTree = "<group>"; };
+		63333CEF1CD68C970024BE66 /* r8_decel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = r8_decel.m4a; path = Sounds/r8_decel.m4a; sourceTree = "<group>"; };
+		63333CF01CD68C970024BE66 /* r8_idle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = r8_idle.m4a; path = Sounds/r8_idle.m4a; sourceTree = "<group>"; };
+		63333CF41CD6A1A90024BE66 /* jetsons_accel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = jetsons_accel.m4a; path = Sounds/jetsons_accel.m4a; sourceTree = "<group>"; };
+		63333CF51CD6A1A90024BE66 /* jetsons_decel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = jetsons_decel.m4a; path = Sounds/jetsons_decel.m4a; sourceTree = "<group>"; };
+		63333CF61CD6A1A90024BE66 /* jetsons_idle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = jetsons_idle.m4a; path = Sounds/jetsons_idle.m4a; sourceTree = "<group>"; };
+		63333CFC1CD6B3E20024BE66 /* jetsons.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jetsons.gif; sourceTree = "<group>"; };
+		63333CFE1CD6B4490024BE66 /* r8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = r8.gif; sourceTree = "<group>"; };
 		634E50D01CBC730500E780F2 /* AnyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634E50D31CBC730600E780F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		634E50D51CBC730600E780F2 /* SelectCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCarViewController.swift; sourceTree = "<group>"; };
@@ -27,11 +44,12 @@
 		634E50DA1CBC730600E780F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634E50DD1CBC730600E780F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		634E50DF1CBC730600E780F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		634E50EC1CBC78B600E780F2 /* Models.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Models.xcdatamodel; sourceTree = "<group>"; };
-		6350BAF51CCDAB8C00F3A9C4 /* r8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = r8.mp3; path = ../../../../Downloads/r8.mp3; sourceTree = "<group>"; };
 		6350BAF81CCDABC800F3A9C4 /* DriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriveViewController.swift; path = ../DriveViewController.swift; sourceTree = "<group>"; };
 		6350BAFA1CCDAF4800F3A9C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6353B06D1CD02DCC00D13DE3 /* r8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = r8.jpg; path = ../../../../Documents/r8.jpg; sourceTree = "<group>"; };
+		638254DA1CD6C327009188FD /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		B860F21D6676D5DD51D1DE1F /* Pods-AnyCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnyCar/Pods-AnyCar.release.xcconfig"; sourceTree = "<group>"; };
+		BD753B2B272739E45E81C6BE /* Pods_AnyCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65B6ADDEEFC1B4D4CF2B97A /* Pods-AnyCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnyCar/Pods-AnyCar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,19 +57,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632AB7AB1CD5A9EC00D1505D /* CoreLocation.framework in Frameworks */,
 				6350BAFB1CCDAF4800F3A9C4 /* AVFoundation.framework in Frameworks */,
+				5355525EDE345EA923EC5569 /* Pods_AnyCar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BDD4C7AB4A4B77A4D6A28D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD753B2B272739E45E81C6BE /* Pods_AnyCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		634E50C71CBC730500E780F2 = {
 			isa = PBXGroup;
 			children = (
+				632AB7AA1CD5A9EC00D1505D /* CoreLocation.framework */,
 				6350BAFA1CCDAF4800F3A9C4 /* AVFoundation.framework */,
 				634E50D21CBC730600E780F2 /* AnyCar */,
 				634E50D11CBC730500E780F2 /* Products */,
+				9BF649B7297CD5D85EAF526A /* Pods */,
+				5BDD4C7AB4A4B77A4D6A28D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +101,6 @@
 				6350BAF71CCDAB9D00F3A9C4 /* Sounds */,
 				634E50D31CBC730600E780F2 /* AppDelegate.swift */,
 				6350BAF81CCDABC800F3A9C4 /* DriveViewController.swift */,
-				634E50EB1CBC78B600E780F2 /* Models.xcdatamodeld */,
 				634E50D51CBC730600E780F2 /* SelectCarViewController.swift */,
 				634E50D71CBC730600E780F2 /* Main.storyboard */,
 				634E50DA1CBC730600E780F2 /* Assets.xcassets */,
@@ -83,7 +113,12 @@
 		6350BAF71CCDAB9D00F3A9C4 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				6350BAF51CCDAB8C00F3A9C4 /* r8.mp3 */,
+				63333CF41CD6A1A90024BE66 /* jetsons_accel.m4a */,
+				63333CF51CD6A1A90024BE66 /* jetsons_decel.m4a */,
+				63333CF61CD6A1A90024BE66 /* jetsons_idle.m4a */,
+				63333CEE1CD68C970024BE66 /* r8_accel.m4a */,
+				63333CEF1CD68C970024BE66 /* r8_decel.m4a */,
+				63333CF01CD68C970024BE66 /* r8_idle.m4a */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -91,9 +126,20 @@
 		6353B06C1CD02C9400D13DE3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				6353B06D1CD02DCC00D13DE3 /* r8.jpg */,
+				638254DA1CD6C327009188FD /* info.png */,
+				63333CFE1CD6B4490024BE66 /* r8.gif */,
+				63333CFC1CD6B3E20024BE66 /* jetsons.gif */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		9BF649B7297CD5D85EAF526A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C65B6ADDEEFC1B4D4CF2B97A /* Pods-AnyCar.debug.xcconfig */,
+				B860F21D6676D5DD51D1DE1F /* Pods-AnyCar.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 634E50E21CBC730600E780F2 /* Build configuration list for PBXNativeTarget "AnyCar" */;
 			buildPhases = (
+				763A3BD4C6F566DFE6516579 /* 📦 Check Pods Manifest.lock */,
 				634E50CC1CBC730500E780F2 /* Sources */,
 				634E50CD1CBC730500E780F2 /* Frameworks */,
 				634E50CE1CBC730500E780F2 /* Resources */,
+				D01459BCD997B271FBFF688C /* 📦 Embed Pods Frameworks */,
+				55919FD5AC8F25A4319EB353 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,14 +205,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				634E50DE1CBC730600E780F2 /* LaunchScreen.storyboard in Resources */,
-				6353B06E1CD02DCC00D13DE3 /* r8.jpg in Resources */,
+				63333CF31CD68C970024BE66 /* r8_idle.m4a in Resources */,
+				63333CFF1CD6B4490024BE66 /* r8.gif in Resources */,
+				63333CF91CD6A1A90024BE66 /* jetsons_idle.m4a in Resources */,
+				63333CF21CD68C970024BE66 /* r8_decel.m4a in Resources */,
 				634E50DB1CBC730600E780F2 /* Assets.xcassets in Resources */,
-				6350BAF61CCDAB8C00F3A9C4 /* r8.mp3 in Resources */,
+				63333CF11CD68C970024BE66 /* r8_accel.m4a in Resources */,
+				63333CF71CD6A1A90024BE66 /* jetsons_accel.m4a in Resources */,
+				63333CFD1CD6B3E20024BE66 /* jetsons.gif in Resources */,
+				63333CF81CD6A1A90024BE66 /* jetsons_decel.m4a in Resources */,
 				634E50D91CBC730600E780F2 /* Main.storyboard in Resources */,
+				638254DB1CD6C327009188FD /* info.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55919FD5AC8F25A4319EB353 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnyCar/Pods-AnyCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		763A3BD4C6F566DFE6516579 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D01459BCD997B271FBFF688C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnyCar/Pods-AnyCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		634E50CC1CBC730500E780F2 /* Sources */ = {
@@ -172,7 +276,6 @@
 			files = (
 				634E50D61CBC730600E780F2 /* SelectCarViewController.swift in Sources */,
 				6350BAF91CCDABC800F3A9C4 /* DriveViewController.swift in Sources */,
-				634E50ED1CBC78B600E780F2 /* Models.xcdatamodeld in Sources */,
 				634E50D41CBC730600E780F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +387,7 @@
 		};
 		634E50E31CBC730600E780F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65B6ADDEEFC1B4D4CF2B97A /* Pods-AnyCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -298,6 +402,7 @@
 		};
 		634E50E41CBC730600E780F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B860F21D6676D5DD51D1DE1F /* Pods-AnyCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -332,19 +437,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		634E50EB1CBC78B600E780F2 /* Models.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				634E50EC1CBC78B600E780F2 /* Models.xcdatamodel */,
-			);
-			currentVersion = 634E50EC1CBC78B600E780F2 /* Models.xcdatamodel */;
-			path = Models.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 634E50C81CBC730500E780F2 /* Project object */;
 }
