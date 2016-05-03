@@ -1,0 +1,6 @@
+framework module Pods_AnyCar {
+  umbrella header "Pods-AnyCar-umbrella.h"
+
+  export *
+  module * { export * }
+}

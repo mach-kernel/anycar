@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
     <entity name="Car" syncable="YES">
-        <attribute name="audio" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="audio_filename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_filename" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="SettingSingleton" syncable="YES">
@@ -9,7 +10,7 @@
         <relationship name="current_vehicle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Car" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Car" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Car" positionX="-63" positionY="-18" width="128" height="90"/>
         <element name="SettingSingleton" positionX="144" positionY="270" width="128" height="73"/>
     </elements>
 </model>
